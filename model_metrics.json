@@ -1,0 +1,45 @@
+{
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "train_rows": 4500,
+  "test_rows": 1500,
+  "confusion_matrix": [
+    [
+      337,
+      0
+    ],
+    [
+      0,
+      1163
+    ]
+  ],
+  "classification_report": {
+    "not-match": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 337.0
+    },
+    "match": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1163.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1500.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1500.0
+    }
+  },
+  "note": "These metrics measure agreement with synthetic labels created by a color-harmony rule. They do not establish human fashion preference or real-world accuracy."
+}
